@@ -1,4 +1,5 @@
 ---
+tags: [cli]
 max_turns: 8
 allowed_tools: [Bash, Skill]
 ---

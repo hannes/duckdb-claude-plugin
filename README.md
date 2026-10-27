@@ -48,10 +48,13 @@ tools, so they are cheap, and each has graders that distinguish the 1.x answer f
 answer. One case drives the real CLI.
 
 ```
-claude plugin eval . --runs 1 --allow-tools Bash --no-publish
+claude plugin eval . --runs 1 --tag knowledge --no-publish       # the cheap cases, no tools
+claude plugin eval . --runs 1 --tag cli --allow-tools Bash --no-publish   # drives the real CLI
 ```
 
-The report shows each case with the plugin, without it, and the difference.
+The report shows each case with the plugin, without it, and the difference. The `cli` case
+grants Bash to the sandboxed session, which `claude plugin eval` refuses on a machine whose
+AWS config uses a `credential_process`; run it elsewhere or drop that profile first.
 
 ## Status
 

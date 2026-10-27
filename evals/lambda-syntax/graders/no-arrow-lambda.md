@@ -1,5 +1,5 @@
 ---
 type: regex
-pattern: '\b\w+\s*->\s*\w'
+pattern: 'list_transform\s*\([^;`]*?\b\w+\s*->'
 match: not_contains
 ---
