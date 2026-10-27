@@ -1,0 +1,18 @@
+{
+  "name": "duckdb-dialect",
+  "owner": {
+    "name": "duckdb",
+    "url": "https://github.com/duckdb"
+  },
+  "plugins": [
+    {
+      "name": "duckdb-dialect",
+      "source": "./",
+      "description": "What Claude needs to know to write correct DuckDB 2.0 SQL and Python: the 2.0 dialect changes, friendly SQL idioms, file reading, the Python client, and upgrading from 1.x.",
+      "version": "0.1.0",
+      "homepage": "https://duckdb.org",
+      "license": "MIT",
+      "keywords": ["duckdb", "sql", "python", "parquet", "csv", "migration", "duckdb-2.0"]
+    }
+  ]
+}
