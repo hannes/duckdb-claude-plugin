@@ -24,7 +24,7 @@ invoked as `/duckdb-dialect:duckdb-upgrade`.
 ## Install
 
 ```
-/plugin marketplace add duckdb/duckdb-dialect
+/plugin marketplace add hannes/duckdb-claude-plugin
 /plugin install duckdb-dialect@duckdb-dialect
 ```
 
